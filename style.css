@@ -1,0 +1,51 @@
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(wallpaper.jpg);
+}
+
+p {
+    font-size: 18px;
+    margin: 25px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#main{
+    background-image: url(wallpaper.jpg);
+}
+
+.main {
+    background-image: url(wallpaper.jpg);
+}
+        
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(48, 48, 250);
+    color: #FFF;
+    width: 100%;
+    height: 60px;    
+    text-align: center;
+    line-height: 60px;
+}
+
+#botao {
+    text-align: center;
+    
+}
+
+.tamanho {
+    width: 150px;
+    height: 40px;
+}
