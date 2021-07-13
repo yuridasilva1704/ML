@@ -27,7 +27,7 @@ function calculadora() {
 		var random_prata1 = Math.floor(Math.random() * 3)
 		var random_bronze1 = Math.floor(Math.random() * 3)
 	
-		alert("Com sua pontuação atual, na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp1[random_mvp1] + "\nOuro: " + "+"  +ouro1[random_ouro1] + "\nPrata: " + "+"  + prata1[random_prata1] + "\nBronze: " + "+"  + bronze1[random_bronze1])
+		alert("Com sua pontuação atual, " +pontos +" na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp1[random_mvp1] + "\nOuro: " + "+"  +ouro1[random_ouro1] + "\nPrata: " + "+"  + prata1[random_prata1] + "\nBronze: " + "+"  + bronze1[random_bronze1])
 	
 		} 
 	
