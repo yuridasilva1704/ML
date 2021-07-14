@@ -9,16 +9,16 @@ function calculadora() {
 		var prata1 = [8, 9, 10]
 		var bronze1 = [5, 6, 7]
 		
-        var media1 = 15
-        var media2 = 10.5
-        var media3 = 7
-        var media4 = 5
+		var media1 = 15
+		var media2 = 10.5
+		var media3 = 7
+		var media4 = 5
 	
 		var diferenca1 = top_10 - pontos
         
 		var partidas1 = diferenca1/media1
 
-        var total = (partidas1)
+        	var total = (partidas1)
         
 		alert("Restam " + parseInt(Math. ceil(total)) + " partidas em média para o top supremo")
 	
@@ -29,7 +29,11 @@ function calculadora() {
 	
 		alert("Com sua pontuação atual, " +pontos +" na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp1[random_mvp1] + "\nOuro: " + "+"  +ouro1[random_ouro1] + "\nPrata: " + "+"  + prata1[random_prata1] + "\nBronze: " + "+"  + bronze1[random_bronze1])
 	
-		} 
+		}
+		
+	else {
+		alert("Pontuação informada é menor do que 3800!")	
+	}
 	
 		else if (pontos >= 3900 && pontos < 4000) {
 	
