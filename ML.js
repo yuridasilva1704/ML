@@ -27,7 +27,7 @@ function calculadora() {
 		var random_prata1 = Math.floor(Math.random() * 3)
 		var random_bronze1 = Math.floor(Math.random() * 3)
 	
-		alert("Com sua pontuação atual, " +pontos +" na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp1[random_mvp1] + "\nOuro: " + "+"  +ouro1[random_ouro1] + "\nPrata: " + "+"  + prata1[random_prata1] + "\nBronze: " + "+"  + bronze1[random_bronze1])
+		alert("Com sua pontuação atual, " +pontos +", na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp1[random_mvp1] + "\nOuro: " + "+"  +ouro1[random_ouro1] + "\nPrata: " + "+"  + prata1[random_prata1] + "\nBronze: " + "+"  + bronze1[random_bronze1])
 	
 		}
 	
@@ -56,7 +56,7 @@ function calculadora() {
 		var random_prata2 = Math.floor(Math.random() * 2)
 		var random_bronze2 = Math.floor(Math.random() * 2)
 	
-		alert("Com sua pontuação atual, na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp2[random_mvp2] + "\nOuro: " + "+"  +ouro2[random_ouro2] + "\nPrata: " + "+"  + prata2[random_prata2] + "\nBronze: " + "+"  + bronze2[random_bronze2])
+		alert("Com sua pontuação atual, " +pontos +", na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp2[random_mvp2] + "\nOuro: " + "+"  +ouro2[random_ouro2] + "\nPrata: " + "+"  + prata2[random_prata2] + "\nBronze: " + "+"  + bronze2[random_bronze2])
 	
 	}
 	
@@ -87,7 +87,7 @@ function calculadora() {
 		var random_prata3 = Math.floor(Math.random() * 2)
 		var random_bronze3 = Math.floor(Math.random() * 2)
 	
-		alert("Com sua pontuação atual, na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp3[random_mvp3] + "\nOuro: " + "+"  +ouro3[random_ouro3] + "\nPrata: " + "+"  + prata3[random_prata3] + "\nBronze: " + "+"  + bronze3[random_bronze3])
+		alert("Com sua pontuação atual, " +pontos +", na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp3[random_mvp3] + "\nOuro: " + "+"  +ouro3[random_ouro3] + "\nPrata: " + "+"  + prata3[random_prata3] + "\nBronze: " + "+"  + bronze3[random_bronze3])
 	
 	
 		}
@@ -122,7 +122,7 @@ function calculadora() {
 		var random_prata4 = Math.floor(Math.random() * 2)
 		var random_bronze4 = Math.floor(Math.random() * 1)
 	
-		alert("Com sua pontuação atual, na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp4[random_mvp4] + "\nOuro: " + "+"  +ouro4[random_ouro4] + "\nPrata: " + "+"  + prata4[random_prata4] + "\nBronze: " + "+"  + bronze4[random_bronze4])
+		alert("Com sua pontuação atual, " +pontos +", na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp4[random_mvp4] + "\nOuro: " + "+"  +ouro4[random_ouro4] + "\nPrata: " + "+"  + prata4[random_prata4] + "\nBronze: " + "+"  + bronze4[random_bronze4])
 		}		
 	}
 calculadora();
