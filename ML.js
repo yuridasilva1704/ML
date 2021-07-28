@@ -30,10 +30,6 @@ function calculadora() {
 		alert("Com sua pontuação atual, " +pontos +" na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp1[random_mvp1] + "\nOuro: " + "+"  +ouro1[random_ouro1] + "\nPrata: " + "+"  + prata1[random_prata1] + "\nBronze: " + "+"  + bronze1[random_bronze1])
 	
 		}
-		
-	else {
-		alert("Pontuação informada é menor do que 3800!")	
-	}
 	
 		else if (pontos >= 3900 && pontos < 4000) {
 	
