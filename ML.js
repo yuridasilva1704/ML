@@ -129,3 +129,4 @@ function calculadora() {
 		alert("Com sua pontuação atual, na próxima vitória, você ganhará em média os seguintes pontos: " + "\n \nMPV: " + "+" + mvp4[random_mvp4] + "\nOuro: " + "+"  +ouro4[random_ouro4] + "\nPrata: " + "+"  + prata4[random_prata4] + "\nBronze: " + "+"  + bronze4[random_bronze4])
 		}		
 	}
+calculadora();
